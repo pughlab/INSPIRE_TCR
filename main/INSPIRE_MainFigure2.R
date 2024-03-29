@@ -2,28 +2,25 @@ library(tidyverse)
 library (ggbeeswarm)
 
 ### Input data preparation ----------------------------------------------------------------------------------------
-
+data_path <- "https://github.com/pughlab/INSPIRE_TCR/blob/main/Data"
 ### Clinical data:
-clinical_data_path <- "/Users/shirin/Desktop/Immunarch/downsamplign/Projetcs/INSPIRE/clinical_data/coding_ref"
 clinical_data_fname <- "INSPIRE_ClinicalData.xlsx"
 
 clinical_data <- readxl::read_xlsx(
-        file.path (clinical_data_path , clinical_data_fname))%>%
+        file.path (data_path , clinical_data_fname))%>%
         dplyr::select(Patient_id , 
                       COHORT , 
                       `Best response longevity` )
 
 ### Metastasis site data:
-MetSite_data_path <- "/Users/shirin/Desktop/Immunarch/downsamplign/Projetcs/INSPIRE/clinical_data/coding_ref"
 MetSite_data_fname <- "Metastasis_site.xlsx"
-MetSite_data <- readxl::read_xlsx(file.path (MetSite_data_path , MetSite_data_fname))
+MetSite_data <- readxl::read_xlsx(file.path (data_path , MetSite_data_fname))
 
 ### Diversity indices:
-input_path  <- "~/Desktop/Immunarch/downsamplign/Projetcs/INSPIRE/dna/tumor/diversity_profiles"
-input_fname <- "inspire_tumor_diversity_inices.csv"
+div_fname <- "inspire_tumor_diversity_inices.csv"
 
 diversity_indices <- readr::read_csv(
-        file.path (input_path , input_fname)) %>% 
+        file.path (data_path , div_fname)) %>% 
         filter (Locus == "CLONES_TRB") %>%
         filter(!(Patient_id == "INS-D-006" & Cycle == "EOTT")) %>%
         filter(Order_q == 1) %>%
