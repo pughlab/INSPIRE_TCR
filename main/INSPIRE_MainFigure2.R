@@ -3,6 +3,7 @@ library (ggbeeswarm)
 
 ### Input data preparation ----------------------------------------------------------------------------------------
 data_path <- "https://github.com/pughlab/INSPIRE_TCR/blob/main/Data"
+
 ### Clinical data:
 clinical_data_fname <- "INSPIRE_ClinicalData.xlsx"
 
