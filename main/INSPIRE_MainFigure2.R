@@ -36,7 +36,7 @@ diversity_indices <- readr::read_csv(
 
 ### Visualization -------------------------------------------------------------------------------------------------
 ### Color palettes:
-color_pal <- tibble(response = 
+RECIST_color_pal <- tibble(response = 
                            c ("CR", "PR",
                               "SD, 6 < n ICB cycles",
                               "SD, n < 6 ICB cycles",
