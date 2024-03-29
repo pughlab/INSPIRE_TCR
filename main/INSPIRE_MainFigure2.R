@@ -5,7 +5,7 @@ library (ggbeeswarm)
 
 ### Clinical data:
 clinical_data_path <- "/Users/shirin/Desktop/Immunarch/downsamplign/Projetcs/INSPIRE/clinical_data/coding_ref"
-clinical_data_fname <- "INSPIRE_ClinicalData_CodingRef.xlsx"
+clinical_data_fname <- "INSPIRE_ClinicalData.xlsx"
 
 clinical_data <- readxl::read_xlsx(
         file.path (clinical_data_path , clinical_data_fname))%>%
