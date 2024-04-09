@@ -1,0 +1,18 @@
+﻿Patient_id,baseline_tumour_shannon_diversity,on_icb_tumour_shannon_diversity,difference of shannon diversity,Cluster based on two raw diversities,Cluster based on baseline,Cluster based on difference,FMM Cluster
+INS-C-024,62.754,16.19,-46.564,1,1,2,Persistently low diversity
+INS-E-016,10.44,89.96,79.52,1,1,2,Persistently low diversity
+INS-E-024,55.806,25.365,-30.441,1,1,2,Persistently low diversity
+INS-E-030,59.823,38.768,-21.055,1,1,2,Persistently low diversity
+INS-E-034,43.751,54.987,11.236,1,1,2,Persistently low diversity
+INS-E-036,63.715,132.33,68.615,1,1,2,Persistently low diversity
+INS-A-002,244.087,244.322,0.235,3,2,2,Stagnant diversity
+INS-D-007,338.57,424.391,85.821,3,2,2,Stagnant diversity
+INS-E-013,145.813,158.342,12.529,3,2,2,Stagnant diversity
+INS-E-018,233.738,170.037,-63.701,3,2,2,Stagnant diversity
+INS-E-026,281.903,304.596,22.693,3,2,2,Stagnant diversity
+INS-C-018,227.08,396.64,169.56,3,2,3,Diversified
+INS-C-020,294.772,552.547,257.775,3,2,3,Diversified
+INS-D-006,168.55,488.708,320.158,3,2,3,Diversified
+INS-D-013,211.819,442.394,230.575,3,2,3,Diversified
+INS-A-007,851.797,261.648,-590.149,2,3,1,Stagnant diversity
+INS-B-024,993.263,486.409,-506.854,2,3,1,Stagnant diversity
