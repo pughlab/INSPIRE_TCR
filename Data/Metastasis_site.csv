@@ -1,0 +1,59 @@
+﻿Metastasis_Site,Tissue,Patient_id,Cycle
+RLL,Lung,INS-A-002,ST
+L submandibular LN,Lymph node,INS-A-007,ST
+R tongue base,Tongue and sublingual,INS-A-012,ST
+RLL Lung (subpleural),Lung,INS-A-014,ST
+sublingual,Tongue and sublingual,INS-A-024,ST
+Liver Seg 7,Liver ,INS-B-002,ST
+RLL,Lung,INS-B-014,ST
+Rt axillary LN,Lymph node,INS-B-024,ST
+Lung RMC,Lung,INS-B-026,ST
+R supraclavicular LN,Lymph node,INS-B-027,ST
+R adnexal mass,Adnexal mass,INS-C-001,ST
+Abdominal wall,Abdominal wall,INS-C-018,ST
+L upper peritoneal mass,Peritoneal mass,INS-C-020,ST
+Liver Seg 8,Liver,INS-C-021,ST
+LUQ omentum,LUQ omentum,INS-C-024,ST
+L gluteal mass,Gluteal mass,INS-D-005,ST
+L armpit s.c.,Subcutaneous tissue,INS-D-006,ST
+L lower back s.c.,Subcutaneous tissue,INS-D-007,ST
+Lt axillary LN,Lymph node,INS-D-013,ST
+Liver seg 5,Liver,INS-E-002,ST
+L axillary LN,Lymph node,INS-E-003,ST
+Liver seg 6,Liver,INS-E-012,ST
+Chest lesion with skin,Skin,INS-E-013,ST
+Liver seg 3,Liver,INS-E-016,ST
+Liver seg 5/6,Liver,INS-E-018,ST
+L abdominal wall,Abdominal wall,INS-E-019,ST
+Liver - seg 5,Liver,INS-E-024,ST
+Axillary LN,Lymph node,INS-E-026,ST
+Liver - seg 5,Liver,INS-E-030,ST
+Lung (LLL),Lung,INS-E-032,ST
+L axillary LN,Lymph node,INS-E-033,ST
+R neck LN,Lymph node,INS-E-034,ST
+Liver - Seg 4,Liver,INS-E-036,ST
+RLL,Lung,INS-A-002,C3T
+L submandibular LN,Lymph node,INS-A-007,C2T
+Liver - seg 5,Liver,INS-B-015,C2T
+Rt axillary LN,Lymph node,INS-B-024,C2T
+L external iliac LN,Lymph node,INS-C-004,EOTT
+R axillary node,Lymph node,INS-C-017,C3T
+Abdominal wall,Abdominal wall,INS-C-018,C2T
+L upper peritoneal mass,Peritoneal mass,INS-C-020,C2T
+LUQ omentum,LUQ omentum,INS-C-024,C2T
+Skin (back),Skin,INS-D-003,C3T
+L armpit s.c.,Subcutaneous tissue,INS-D-006,C2T
+L lower back s.c.,Subcutaneous tissue,INS-D-007,C2T
+Lt axillary LN,Lymph node,INS-D-013,C2T
+R axillary LN,Lymph node,INS-E-008,EOTT
+Chest lesion with skin,Skin,INS-E-013,C3T
+Liver Seg 3,Liver,INS-E-016,C2T
+Liver seg 5/6,Liver,INS-E-018,C2T
+Liver - seg 5,Liver,INS-E-022,C2T
+Liver - seg 5,Liver,INS-E-024,C2T
+Axillary LN,Lymph node,INS-E-026,C2T
+R & L lobe of liver,Liver,INS-E-028,C2T
+Liver - seg 5,Liver,INS-E-030,C2T
+R neck LN,Lymph node,INS-E-034,C2T
+Liver - Seg 4,Liver,INS-E-036,C2T
+,,,
