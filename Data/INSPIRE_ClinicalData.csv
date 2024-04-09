@@ -1,0 +1,84 @@
+﻿Patient_id,Date of birth,Gender,COHORT,Histologic diagnosis,Standard of care clinical molecular features (if relevant),Date of first infusion,Age at time of first infusion (years),"CR, PR or SD and ≥ 6 cycles of pembro",Best response,Best response longevity,Best response cycle,Best response TM (%),RECIST PD in cycle,Cycle off trial ,Date of last dose,Reason for stopping,Date of progression (RECIST 1.1),Date of progression (irRECIST ),Date of clinical progression,Date off trial ,Date of last contact,Date of death ,Follow up (days),Lost to follow up,PFS (months),OS (months),PFS Status,OS Status
+INS-A-004,1954-03-22,1,SCCHN,Squamous cell carcinoma of floor of mouth,p16 unknown,9-Aug-16,62.38,1,CR,CR,35,-100.0%,NO PD,35,24-Jul-18,9,,,,2018-08-08,2022-10-03,,2246,0,73.79,73.79,0,0
+INS-A-020,1958-11-08,0,SCCHN,Squamous cell carcinoma of tongue,p16 unknown,3-Oct-17,58.90,1,CR,CR,12,-100.0%,NO PD,35,18-Sep-19,9,,,,2019-10-21,2022-12-19,,1903,0,62.52,62.52,0,0
+INS-D-013,1947-06-18,0,MM,"Melanoma, NOS","BRAF positive (rare mutation: Lys601Glu), CDK N2a/N2b deletion",14-Nov-17,70.41,1,CR,CR,12,-84.8%,NO PD,35,05-Nov-19,9,,,,2019-12-02,2022-11-30,,1842,0,60.52,60.52,0,0
+INS-B-027,1950-05-14,0,TNBC,Triple negative breast cancer,N/A,20-Feb-18,67.77,0,NE,NE,N/A,NE,NE,1,20-Feb-18,2,,,2018-03-09,2018-03-09,,2018-03-14,22,0,0.56,0.72,1,1
+INS-A-008,1959-04-17,1,SCCHN,Squamous cell carcinoma of tongue base,P16 positive,14-Mar-17,57.91,0,PD,PD,2,46.2%,2,2,05-Apr-17,2,04-May-17,04-May-17,2017-04-25,2017-04-25,,2017-06-19,97,0,1.68,3.19,1,1
+INS-A-014,1951-11-29,1,SCCHN,Squamous cell carcinoma of hypopharynx,p16 negative,21-Jun-17,65.56,0,PD,PD,2,39.5%,2,2,19-Jul-17,4,18-Aug-17,18-Aug-17,,2017-08-01,,2017-10-01,102,0,1.91,3.35,1,1
+INS-A-023,1966-11-09,1,SCCHN,Squamous cell carcinoma of tonsil,p16 positive,16-Nov-17,51.02,0,PD,PD,2,37.3%,2/EOT,2,06-Dec-17,2,10-Jan-18,10-Jan-18,2018-01-08,2018-01-08,,2019-06-08,569,0,1.81,18.69,1,0
+INS-A-024,1969-05-06,1,SCCHN,Squamous cell carcinoma of oral cavity,p16 unknown,8-Nov-17,48.51,0,PD,PD,3,1.3%,3,3,20-Dec-17,8,03-Jan-18,03-Jan-18,,2018-01-03,,2018-07-19,253,0,1.84,8.31,1,1
+INS-B-002,1959-08-09,0,TNBC,Triple negative breast cancer,N/A,3-May-16,56.73,0,PD,PD,1,6.7%  (Non target PD),1/EOT,1,03-May-16,1,14-May-16,14-May-16,,2016-06-02,,2016-08-20,109,0,0.36,3.58,1,1
+INS-B-014,1981-09-11,0,TNBC,Triple negative breast cancer,N/A,23-Feb-17,35.45,0,PD,PD,3,2.9% (Non target PD),3,3,05-Apr-17,1,21-Apr-17,21-Apr-17,,2017-04-25,,2018-05-04,435,0,1.87,14.29,1,1
+INS-B-015,1943-08-31,0,TNBC,Triple negative breast cancer,N/A,14-Feb-17,73.46,0,PD,PD,3,"1.5%
+(Non target PD)",3,3,28-Mar-17,1,05-Apr-17,05-Apr-17,,2017-04-24,,2017-07-06,142,0,1.64,4.67,1,1
+INS-B-020,1972-03-23,0,TNBC,Triple negative breast cancer,N/A,4-Jul-17,45.28,0,PD,PD,3,25.7%,3,3,15-Aug-17,1,25-Aug-17,25-Aug-17,,2017-09-06,,2018-01-12,192,0,1.71,6.31,1,1
+INS-B-021,1948-11-12,0,TNBC,Triple negative breast cancer,N/A,21-Jul-17,68.69,0,PD,PD,3,13.8% (Non target PD),3,3,01-Sep-17,1,08-Sep-17,08-Sep-17,,2017-09-18,,2018-07-06,350,0,1.61,11.50,1,1
+INS-B-022,1956-07-11,0,TNBC,Triple negative breast cancer,N/A,10-Jul-17,61.00,0,PD,PD,3,12.2% (Non target PD),3,5,04-Oct-17,1,07-Sep-17,19-Oct-17,,2017-10-24,,2019-03-10,608,0,1.94,19.98,1,1
+INS-B-023,1981-03-16,0,TNBC,Triple negative breast cancer,N/A,19-Sep-17,36.51,0,PD,PD,3,6.3% (Non target PD),3,3,01-Nov-17,1,17-Nov-17,17-Nov-17,,2017-11-21,,2018-05-12,235,0,1.94,7.72,1,1
+INS-B-024,1961-10-17,0,TNBC,Triple negative breast cancer,N/A,25-Oct-17,56.02,0,PD,PD,3,76.5%,3,3,06-Dec-17,1,22-Dec-17,22-Dec-17,,2017-12-27,,2018-07-15,263,0,1.91,8.64,1,1
+INS-B-026,1943-11-28,0,TNBC,Triple negative breast cancer,N/A,1-Dec-17,74.01,0,PD,PD,2,28.0%,2,2,22-Dec-17,1,29-Dec-17,29-Dec-17,,2018-01-04,,2018-09-01,274,0,0.92,9.00,1,1
+INS-C-010,1980-01-11,0,HGSOC,"Ovarian, high grade serous",N/A,20-Jul-16,36.52,0,PD,PD,3,29.8%,3,3,07-Sep-16,1,13-Sep-16,13-Sep-16,,2016-09-14,,2017-09-16,423,0,1.81,13.90,1,1
+INS-C-013,1964-09-15,0,HGSOC,"Ovarian, high grade serous",N/A,17-Aug-16,51.92,0,PD,PD,3,3.8% (Non target PD),3,4,16-Nov-16,1,11-Oct-16,02-Dec-16,,2016-12-06,,2018-12-01,836,0,1.81,27.47,1,1
+INS-C-015,1943-10-01,0,HGSOC,"Ovarian, high grade serous",N/A,7-Sep-16,72.94,0,PD,PD,4,10.8% (Non target PD),3,4,10-Nov-16,1,02-Nov-16,25-Nov-16,,2016-11-30,,2020-11-19,1534,0,1.84,50.40,1,1
+INS-C-017,1967-04-07,0,HGSOC,"Ovarian, high grade serous",N/A,2-Sep-16,49.41,0,PD,PD,3,38.7%,3,3,17-Oct-16,1,01-Nov-16,01-Nov-16,,2016-11-07,,2019-02-02,883,0,1.97,29.01,1,1
+INS-C-020,1963-06-16,0,HGSOC,"Ovarian, high grade serous",N/A,20-Dec-16,53.51,0,PD,PD,2,26.2%,2,2,10-Jan-17,1,13-Feb-17,13-Feb-17,,2017-02-21,2022-12-12,,2183,0,1.81,71.72,1,0
+INS-C-021,1946-09-10,0,HGSOC,"Ovarian, high grade serous",N/A,24-Jan-17,70.37,0,PD,PD,1,23.9%,1,1,24-Jan-17,1,13-Feb-17,13-Feb-17,,2017-02-13,,2017-05-27,123,0,0.66,4.04,1,1
+INS-C-023,1949-06-01,0,HGSOC,"Ovarian, high grade serous",N/A,24-Jan-17,67.65,0,PD,PD,3,11.4% (non target PD),3,3,07-Mar-17,1,21-Mar-17,21-Mar-17,,2017-03-27,,2020-01-26,1097,0,1.84,36.04,1,1
+INS-C-024,1972-07-07,0,HGSOC,"Ovarian, high grade serous",N/A,19-Apr-17,44.78,0,PD,PD,3,12.5% (Non target PD),3,3,31-May-17,1,13-Jun-17,13-Jun-17,,2017-06-28,,2017-08-30,133,0,1.81,4.37,1,1
+INS-D-007,1958-12-31,1,MM,"Melanoma, NOS","BRAF negative, NRAS negative, KIT positive",13-Dec-16,57.95,0,PD,PD,3,31.0%,3,5,07-Mar-17,1,08-Feb-17,10-Mar-17,,2017-03-28,,2017-06-18,187,0,1.87,6.14,1,1
+INS-D-008,1943-01-06,1,MM,"Melanoma, NOS",BRAF positive,7-Feb-17,74.09,0,PD,PD,3,37.5%,3,5,24-May-17,1,06-Apr-17,23-May-17,,2017-06-12,,2017-08-22,196,0,1.91,6.44,1,1
+INS-D-011,1939-03-19,0,MM,"Melanoma, superficial spreading",BRAF negative,30-May-17,78.20,0,PD,PD,3,NE (Non Target PD),3,3,13-Jul-17,1,17-Jul-17,17-Jul-17,,2017-07-24,,2017-09-14,107,0,1.58,3.52,1,1
+INS-E-011,1995-07-03,1,MST,"Sarcoma, clear cell",EWSR1-ATF1 fusion positive,17-Aug-16,21.13,0,PD,PD,3,71.2%,3,3,28-Sep-16,1,18-Oct-16,18-Oct-16,,2016-10-20,,2016-11-24,99,0,2.04,3.25,1,1
+INS-E-012,1959-06-23,1,MST,Small cell carcinoma of anus,N/A,23-Aug-16,57.17,0,PD,PD,3,26.0%,3,5,15-Nov-16,1,20-Oct-16,29-Nov-16,,2016-12-06,,2017-10-22,425,0,1.91,13.96,1,1
+INS-E-016,1978-07-15,0,MST,Large cell neuroendocrine carcinoma of cervix,N/A,4-Oct-16,38.22,0,PD,PD,3,64.7%,3,3,16-Nov-16,1,02-Dec-16,02-Dec-16,,2016-12-05,,2017-12-03,425,0,1.94,13.96,1,1
+INS-E-018,1950-07-26,1,MST,Adenocarcinoma of GEJ,Her2 negative,3-Nov-16,66.28,0,PD,PD,3,27.0%,3,3,20-Dec-16,1,30-Dec-16,30-Dec-16,,2017-01-10,2022-10-21,,2178,0,1.87,71.56,1,0
+INS-E-019,1976-11-11,0,MST,Clear cell carcinoma of endometriosis,MMR proficient,17-Nov-16,40.02,0,PD,PD,3,25.0%,3,5,09-Feb-17,1,13-Jan-17,17-Feb-17,,2017-02-27,2022-11-14,,2188,0,1.87,71.89,1,0
+INS-E-021,1942-12-16,1,MST,Squamous cell carcinoma of penis,N/A,19-Jan-17,74.09,0,PD,PD,2,22.0%,2,2,09-Feb-17,1,20-Mar-17,20-Mar-17,,2017-05-02,,2017-05-16,117,0,1.97,3.84,1,1
+INS-E-023,1968-10-16,1,MST,Squamous cell carcinoma of anus/rectum,N/A,1-Feb-17,48.30,0,PD,PD,3,44.6%,3,3,15-Mar-17,1,30-Mar-17,30-Mar-17,,2017-04-05,,2017-06-27,146,0,1.87,4.80,1,1
+INS-E-025,1945-04-08,0,MST,Adenocarcinoma of colon,"MMR deficient, KRAS wild-type, BRAF unknown",10-Feb-17,71.84,0,PD,PD,3,"14.2%
+(Non target PD)",3,3,24-Mar-17,1,10-Apr-17,10-Apr-17,,2017-04-19,,2017-10-08,240,0,1.94,7.89,1,1
+INS-E-027,1969-10-28,0,MST,Chondrosarcoma,N/A,7-Mar-17,47.36,0,PD,PD,3,0% (Non target PD),3,5,29-May-17,1,02-May-17,07-Jun-17,,2017-06-19,,2017-12-27,295,0,1.84,9.69,1,1
+INS-E-030,1957-09-07,1,MST,Myxoid liposarcoma,N/A,22-Mar-17,59.54,0,PD,PD,3,34.2%,3,3,04-May-17,1,19-May-17,19-May-17,,2017-05-24,,2018-05-14,418,0,1.91,13.73,1,1
+INS-E-031,1965-09-22,1,MST,Adenocarcinoma from biliary system (cholangiocarcinoma),N/A,21-Mar-17,51.49,0,PD,PD,3,9.7% (Non target PD),3,6,05-Jul-17,1,19-May-17,19-Jul-17,,2017-07-20,2018-01-04,,289,1,1.94,9.49,1,0
+INS-E-033,1951-04-01,1,MST,Merkle cell carcinoma,N/A,9-Jun-17,66.19,0,PD,PD,2,10.1% (Non target PD),2,2,29-Jun-17,1,14-Jul-17,14-Jul-17,,2017-07-14,,2017-08-20,72,0,1.15,2.37,1,1
+INS-E-034,1955-03-25,0,MST,Merkle cell carcinoma,N/A,18-Jul-17,62.32,0,PD,PD,3,150.0%,3,5,23-Oct-17,1,13-Sep-17,07-Nov-17,,2017-11-07,,2018-01-10,176,0,1.87,5.78,1,1
+INS-E-035,1965-06-13,1,MST,Merkle cell carcinoma,N/A,10-Aug-17,52.16,0,PD,PD,3,33.0%,3,3,22-Sep-17,1,06-Oct-17,06-Oct-17,,2017-10-11,,2019-03-20,587,0,1.87,19.29,1,1
+INS-A-007,1945-12-28,1,SCCHN,Squamous cell carcinoma of tongue base,P16 positive,7-Dec-16,70.94,1,PR,PR,3,-100.0%,FU#2,20,24-Jan-18,5,05-Sep-18,28-Nov-18,,2018-05-01,,2020-11-25,1449,0,20.93,47.61,1,1
+INS-A-019,1949-01-16,1,SCCHN,Squamous cell carcinoma of supraglottis and glottis,p16 negative,4-Oct-17,68.71,1,PR,PR,3,-56.2%,NO PD,35,29-Oct-19,9,,,,2019-11-25,,2020-11-20,1143,0,37.55,37.55,0,1
+INS-B-016,1956-02-14,0,TNBC,Triple negative breast cancer,N/A,17-May-17,61.25,1,PR,PR,3,-66.1%,NO PD,35,01-May-19,9,,,,2019-05-21,2022-12-20,,2043,0,67.12,67.12,0,0
+INS-D-001,1955-01-19,1,MM,"Melanoma, desmoplastic",BRAF unknown,28-Jun-16,61.44,1,PR,PR,16,-42.2%,No RECIST PD,28,24-Apr-18,2,,,2018-06-05,2018-09-05,2022-11-16,,2332,0,23.23,76.62,1,0
+INS-D-003,1943-06-10,1,MM,"Melanoma, NOS",BRAF negative,20-Jul-16,73.11,1,PR,PR,3,-82.8%,NO PD,35,25-Jul-18,9,,,,2018-08-15,2022-12-14,,2338,0,76.81,76.81,0,0
+INS-D-004,1948-11-12,0,MM,"Melanoma, superficial spreading",BRAF positive,14-Sep-16,67.84,1,PR,PR,3,-100.0%,NO PD,35,19-Sep-18,9,,,,2018-10-09,2022-11-30,,2268,0,74.51,74.51,0,0
+INS-D-005,1946-10-05,1,MM,"Melanoma, NOS","BRAF negative, NRAS negative, KIT negative",25-Oct-16,70.06,1,PR,PR,6,-100.0%,No RECIST PD,21,21-Feb-18,3,,,,2018-04-03,2022-12-13,,2240,0,73.59,73.59,0,0
+INS-D-006,1971-11-04,0,MM,"Melanoma, NOS","BRAF negative, NRAS positive",2-Nov-16,45.00,1,PR,PR,6,-65.6%,24,35,30-Oct-18,9,09-Mar-18,03-Apr-18,,2018-11-26,2022-10-17,,2175,0,16.16,71.46,1,0
+INS-D-009,1963-05-18,0,MM,"Melanoma, mucosal vaginal ",BRAF positive,15-Feb-17,53.75,1,PR,PR,3,-100.0%,NO PD,35,30-Jan-19,9,,,,2019-02-25,2022-10-24,,2077,0,68.24,68.24,0,0
+INS-D-012,1963-01-18,0,MM,"Melanoma, NOS",BRAF negative,6-Jul-17,54.46,1,PR,PR,3,-86.2%,NO PD,35,23-Jul-19,9,,,,2019-08-19,2022-11-14,,1957,0,64.30,64.30,0,0
+INS-E-013,1934-11-21,1,MST,Merkle cell carcinoma,N/A,26-Aug-16,81.76,1,PR,PR,35,-97.2%,No RECIST PD,34,03-Aug-18,3,,,,2018-08-24,2022-10-18,,2244,0,73.72,73.72,0,0
+INS-E-020,1942-03-12,1,MST,Merkle cell carcinoma,N/A,24-Nov-16,74.70,1,PR,PR,6,-34.0%,12,21,15-Feb-18,2,27-Jul-17,,2018-03-03,2018-03-26,,2019-01-04,771,0,8.05,25.33,1,1
+INS-E-022,1946-05-12,1,MST,Merkle cell carcinoma,N/A,2-Feb-17,70.73,1,PR,PR,3,-58.9%,15,16,18-Jan-18,5,06-Dec-17,08-Feb-18,,2018-01-29,,2018-09-03,578,0,10.09,18.99,1,1
+INS-E-026,1967-03-15,1,MST,Basal cell and squamous cell poorly differentiated carcinoma,N/A,23-Feb-17,49.95,1,PR,PR,3,-87.5%,No RECIST PD,16,04-Jan-18,5,,,,2018-02-01,2022-11-29,,2105,0,69.16,69.16,0,0
+INS-E-028,1983-01-10,0,MST,Adenocarcinoma of colon,"MMR deficient, KRAS wild-type, BRAF unknown",2-Mar-17,34.14,1,PR,PR,2,-46.1%,No RECIST PD,2,23-Mar-17,3,,,,2017-07-21,2022-11-01,,2070,0,68.01,68.01,0,0
+INS-A-002,1954-03-28,1,SCCHN,Squamous cell carcinoma of retromolar trigone,p16 unknown,25-Apr-16,62.08,0,SD,"SD, n < 6 ICB cycles",3,5.7%,NE,4,27-Jun-16,2,,,2016-07-18,2016-07-22,,2016-11-10,199,0,2.76,6.54,1,1
+INS-A-010,1951-09-23,0,SCCHN,Squamous cell carcinoma of tonsil,P16 positive,23-May-17,65.66,0,SD,"SD, n < 6 ICB cycles",3,17.8%,6,8,24-Oct-17,1,27-Sep-17,08-Nov-17,,2017-11-14,,2018-11-27,553,0,4.17,18.17,1,1
+INS-A-012,1947-09-19,0,SCCHN,Squamous cell carcinoma of soft palate,p16 unknown,13-Jun-17,69.73,0,SD,"SD, n < 6 ICB cycles",3,-3.7%,3,3,26-Jul-17,5,20-Sep-17,20-Sep-17,,2017-09-18,,2018-03-30,290,0,3.25,9.53,1,1
+INS-A-013,1948-03-29,1,SCCHN,Squamous cell carcinoma of oropharynx,p16 unknown,22-Jun-17,69.23,0,SD,"SD, n < 6 ICB cycles",3,11.0%,6,6,03-Oct-17,1,19-Oct-17,19-Oct-17,,2017-10-23,,2018-02-16,239,0,3.91,7.85,1,1
+INS-A-015,1955-05-10,1,SCCHN,Squamous cell carcinoma of hypopharynx/proximal esophagus,p16 negative,27-Jun-17,62.13,0,SD,"SD, n < 6 ICB cycles",3,-13.5%,No RECIST PD,4,29-Aug-17,7,,,,2017-09-05,,2017-09-05,70,0,2.30,2.30,1,1
+INS-A-018,1947-05-12,1,SCCHN,Squamous cell carcinoma of glottis,p16 unknown,1-Aug-17,70.22,0,SD,"SD, n < 6 ICB cycles",2,13.7%,FU #1,2,22-Aug-17,3,07-Nov-17,07-Nov-17,,2017-09-11,,2017-12-08,129,0,3.22,4.24,1,1
+INS-A-021,1963-03-11,1,SCCHN,Squamous cell carcinoma of tonsil,p16 positive,24-Oct-17,54.62,0,SD,"SD, n < 6 ICB cycles",3,7.3%,EOT,4,28-Dec-17,2,09-Feb-18,09-Feb-18,2018-01-16,2018-01-16,,2018-07-17,266,0,3.55,8.74,1,1
+INS-B-001,1960-12-19,0,TNBC,Triple negative breast cancer,N/A,25-Apr-16,55.35,0,SD,"SD, n < 6 ICB cycles",3,8.2%,5,5,19-Jul-16,1,05-Aug-16,05-Aug-16,,2016-08-08,,2017-01-04,254,0,3.35,8.34,1,1
+INS-B-011,1942-02-14,0,TNBC,Triple negative breast cancer,N/A,23-Nov-16,74.77,0,SD,"SD, n < 6 ICB cycles",3,19.6%,No RECIST PD,3,04-Jan-17,2,,,2017-01-24,2017-01-25,,2018-11-18,725,0,2.04,23.82,1,1
+INS-B-017,1952-04-05,0,TNBC,Triple negative breast cancer,N/A,3-May-17,65.08,0,SD,"SD, n < 6 ICB cycles",3,-29.0%,EOT/FU #1,3,13-Jun-17,5,16-Oct-17,16-Oct-17,,2017-07-24,,2019-05-09,736,0,5.45,24.18,1,1
+INS-C-001,1942-04-04,0,HGSOC,"Ovarian, high grade serous",N/A,15-Apr-16,74.03,0,SD,"SD, n < 6 ICB cycles",3,18.0%,5,5,21-Jul-16,1,08-Aug-16,08-Aug-16,,2016-08-12,,2019-05-16,1126,0,3.78,36.99,1,1
+INS-C-009,1949-11-05,0,HGSOC,"Ovarian, high grade serous",N/A,7-Jul-16,66.67,0,SD,"SD, n < 6 ICB cycles",5,-12.1% (Non target PD),3,5,29-Sep-16,2,01-Sep-16,,2016-10-19,2016-10-19,,2017-11-13,494,0,1.84,16.23,1,1
+INS-E-003,1972-04-20,0,MST,"Adenocarcinoma of endocervix, mucinous type",HPV 18 subtype positive,27-Apr-16,44.02,0,SD,"SD, n < 6 ICB cycles",3,18.1%,6,6,24-Aug-16,1,09-Sep-16,09-Sep-16,,2016-09-12,,2018-03-16,688,0,4.44,22.60,1,1
+INS-E-024,1960-09-18,1,MST,Adenoid cystic carcinoma,"AR, ER and PR unknown",7-Feb-17,56.39,0,SD,"SD, n < 6 ICB cycles",3,9.5%,6,6,23-May-17,1,07-Jun-17,07-Jun-17,,2017-06-13,,2017-10-14,249,0,3.94,8.18,1,1
+INS-E-029,1940-04-20,0,MST,Endometrioid adenocarcinoma of endometrium,"ER positive, MMR deficient",14-Mar-17,76.90,0,SD,"SD, n < 6 ICB cycles",3,15.5%,6,8,08-Aug-17,1,12-Jul-17,22-Aug-17,,2017-08-29,,2020-03-29,1111,0,3.94,36.50,1,1
+INS-E-036,1957-05-08,1,MST,Neuroendocrine tumor of pancreas,MMR deficient,19-Dec-17,60.62,0,SD,"SD, n < 6 ICB cycles",4,6.0%,3,6,04-Apr-18,1,14-Feb-18,20-Apr-18,,2018-04-25,,2018-08-07,231,0,1.87,7.59,1,1
+INS-A-011,1956-07-03,1,SCCHN,Squamous cell carcinoma of tongue ,N/A,23-May-17,60.89,1,SD,"SD, 6 < n ICB cycles",3,-27.4%,No RECIST PD,12,16-Jan-18,2,,,2018-02-12,2018-03-13,,2018-10-26,521,0,8.71,17.12,1,1
+INS-C-004,1945-02-25,0,HGSOC,"Ovarian, high grade serous",N/A,2-Jun-16,71.27,1,SD,"SD, 6 < n ICB cycles",3,-14.7%,9,9,17-Nov-16,1,01-Dec-16,01-Dec-16,,2016-12-07,,2017-01-30,242,0,5.98,7.95,1,1
+INS-C-018,1949-01-12,0,HGSOC,"Ovarian, high grade serous",N/A,8-Nov-16,67.82,1,SD,"SD, 6 < n ICB cycles",3,-25.7%,15,15,12-Sep-17,1,25-Sep-17,25-Sep-17,,2017-10-03,2022-11-21,,2204,0,10.55,72.41,1,0
+INS-E-002,1973-05-11,1,MST,"Sarcoma, hemangiopericytoma",N/A,19-Apr-16,42.94,1,SD,"SD, 6 < n ICB cycles",3,7.5%,No RECIST PD,7,23-Aug-16,2,,,2016-09-17,2016-09-17,,2016-09-17,151,0,4.96,4.96,1,1
+INS-E-004,1952-02-28,0,MST,"Sarcoma, solitary fibrous tumor",N/A,10-May-16,64.20,1,SD,"SD, 6 < n ICB cycles",3,-0.7%,No RECIST PD,9,26-Oct-16,6,,,,2016-11-11,,2022-09-29,2333,0,76.65,76.65,0,0
+INS-E-007,1974-07-12,0,MST,"Squamous cell carcinoma of maxillary sinus, spindle cell type",N/A,16-Jun-16,41.93,1,SD,"SD, 6 < n ICB cycles",3,0.0%,9,15,20-Apr-17,1,16-Dec-16,24-Jan-17,,2017-05-09,,2017-12-11,543,0,6.01,17.84,1,1
+INS-E-008,1967-06-10,1,MST,"Nasopharyngeal carcinoma, non-keratinizing","EBV positive, p16 negative",7-Jul-16,49.08,1,SD,"SD, 6 < n ICB cycles",3,0.0%,No RECIST PD,11,10-Feb-17,2,,,2017-03-03,2017-03-03,,2017-09-14,434,0,7.85,14.26,1,1
+INS-E-032,1973-09-09,0,MST,Adenoid cystic carcinoma,"AR, ER and PR unknown",4-Apr-17,43.57,1,SD,"SD, 6 < n ICB cycles",3,2.0%,20,20,08-May-18,1,23-May-18,23-May-18,,2018-05-25,,2022-02-03,1766,0,13.60,58.02,1,0
