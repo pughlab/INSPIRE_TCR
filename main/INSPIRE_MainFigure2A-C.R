@@ -2,20 +2,20 @@ library(tidyverse)
 library (ggbeeswarm)
 
 ### Input data preparation ----------------------------------------------------------------------------------------
-data_path <- "https://github.com/pughlab/INSPIRE_TCR/blob/main/Data"
+data_path <- "https://raw.githubusercontent.com/pughlab/INSPIRE_TCR/main/Data"
 
 ### Clinical data:
-clinical_data_fname <- "INSPIRE_ClinicalData.xlsx"
+clinical_data_fname <- "INSPIRE_ClinicalData.csv"
 
-clinical_data <- readxl::read_xlsx(
+clinical_data <- readr::read_csv(
         file.path (data_path , clinical_data_fname))%>%
         dplyr::select(Patient_id , 
                       COHORT , 
                       `Best response longevity` )
 
 ### Metastasis site data:
-MetSite_data_fname <- "Metastasis_site.xlsx"
-MetSite_data <- readxl::read_xlsx(file.path (data_path , MetSite_data_fname))
+MetSite_data_fname <- "Metastasis_site.csv"
+MetSite_data <- readr::read_csv(file.path (data_path , MetSite_data_fname))
 
 ### Diversity indices:
 div_fname <- "INSPIRE_Tumour_DiversityInices.csv"
