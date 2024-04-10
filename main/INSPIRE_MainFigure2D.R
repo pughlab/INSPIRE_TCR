@@ -26,7 +26,7 @@ FMM_data <- readr::read_csv(
         dplyr::select(Patient_id ,  `FMM Cluster`)
 
 ### Diversity indices:
-div_fname <- "INSPIRE_Tumour_DiversityInices.csv"
+div_fname <- "INSPIRE_Tumour_DiversityIndices.csv"
 
 diversity_indices <- readr::read_csv(
         file.path (data_path , div_fname)) %>% 
