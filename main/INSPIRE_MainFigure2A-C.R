@@ -18,7 +18,7 @@ MetSite_data_fname <- "Metastasis_site.csv"
 MetSite_data <- readr::read_csv(file.path (data_path , MetSite_data_fname))
 
 ### Diversity indices:
-div_fname <- "INSPIRE_Tumour_DiversityInices.csv"
+div_fname <- "INSPIRE_Tumour_DiversityIndices.csv"
 
 diversity_indices <- readr::read_csv(
         file.path (data_path , div_fname)) %>% 
