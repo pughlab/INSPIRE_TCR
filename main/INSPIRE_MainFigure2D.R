@@ -18,7 +18,7 @@ MetSite_data <- readr::read_csv(file.path (data_path , MetSite_data_fname))%>%
         dplyr::select(Patient_id , Tissue) %>%
         unique()
 
-### Metastasis site data:
+### Diversity FMM clusters:
 FMM_data_fname <- "INSPIRE_Tumour_DiversityFMMClusters.csv"
 
 FMM_data <- readr::read_csv(
