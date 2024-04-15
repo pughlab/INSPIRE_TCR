@@ -11,7 +11,7 @@ network_fname <- "INSPIRE_Tumour_GLIPHIINetwork.rds"
 network <- readr::read_rds(file.path( data_path , network_fname ))
 
 
-communityStats_fname <- "INSPIRETumour_GLIPHIICommunitiesDetails.csv"
+communityStats_fname <- "INSPIRE_Tumour_GLIPHIICommunitiesDetails.csv"
 GLIPHII_Community_stats <- read_csv(file.path( data_path , communityStats_fname ))
 
 ### ---------------------------------------------------------------------------------------------------------
