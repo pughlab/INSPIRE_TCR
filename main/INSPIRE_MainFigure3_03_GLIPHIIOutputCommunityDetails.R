@@ -223,4 +223,4 @@ GLIPHII_Community_stats <- GLIPHII_Community_stats %>%
 
 ### Saving the final dataframe:
 write_csv(GLIPHII_Community_stats ,
-          "INSPIRETumour_GLIPHIICommunitiesDetails.csv" ))
+          "INSPIRE_Tumour_GLIPHIICommunitiesDetails.csv" ))
