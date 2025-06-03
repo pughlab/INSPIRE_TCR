@@ -48,7 +48,7 @@ cohort_color_pal = tibble(
 
 
 
-### Figure S5
+### Figure S7
 
 
 ggplot(data = diversity_indices) +
