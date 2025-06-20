@@ -1,0 +1,84 @@
+﻿Patient_id,Gender,COHORT,Histologic diagnosis,Standard of care clinical molecular features (if relevant),Age at time of first infusion (years),"CR, PR or SD and ≥ 6 cycles of pembro",Best response,Best response longevity,Best response cycle,Best response TM (%),RECIST PD in cycle,Cycle off trial ,Follow up (days),Lost to follow up,PFS (months),OS (months),PFS Status,OS Status
+INS-A-004,1,SCCHN,Squamous cell carcinoma of floor of mouth,p16 unknown,62.38,1,CR,CR,35,-100.00%,NO PD,35,2246,0,73.79,73.79,0,0
+INS-A-020,0,SCCHN,Squamous cell carcinoma of tongue,p16 unknown,58.9,1,CR,CR,12,-100.00%,NO PD,35,1903,0,62.52,62.52,0,0
+INS-D-013,0,MM,"Melanoma, NOS","BRAF positive (rare mutation: Lys601Glu), CDK N2a/N2b deletion",70.41,1,CR,CR,12,-84.80%,NO PD,35,1842,0,60.52,60.52,0,0
+INS-B-027,0,TNBC,Triple negative breast cancer,N/A,67.77,0,NE,NE,N/A,NE,NE,1,22,0,0.56,0.72,1,1
+INS-A-008,1,SCCHN,Squamous cell carcinoma of tongue base,p16 positive,57.91,0,PD,PD,2,46.20%,2,2,97,0,1.68,3.19,1,1
+INS-A-014,1,SCCHN,Squamous cell carcinoma of hypopharynx,p16 negative,65.56,0,PD,PD,2,39.50%,2,2,102,0,1.91,3.35,1,1
+INS-A-023,1,SCCHN,Squamous cell carcinoma of tonsil,p16 positive,51.02,0,PD,PD,2,37.30%,2/EOT,2,569,0,1.81,18.69,1,0
+INS-A-024,1,SCCHN,Squamous cell carcinoma of oral cavity,p16 unknown,48.51,0,PD,PD,3,1.30%,3,3,253,0,1.84,8.31,1,1
+INS-B-002,0,TNBC,Triple negative breast cancer,N/A,56.73,0,PD,PD,1,6.7%  (Non target PD),1/EOT,1,109,0,0.36,3.58,1,1
+INS-B-014,0,TNBC,Triple negative breast cancer,N/A,35.45,0,PD,PD,3,2.9% (Non target PD),3,3,435,0,1.87,14.29,1,1
+INS-B-015,0,TNBC,Triple negative breast cancer,N/A,73.46,0,PD,PD,3,"1.5%
+(Non target PD)",3,3,142,0,1.64,4.67,1,1
+INS-B-020,0,TNBC,Triple negative breast cancer,N/A,45.28,0,PD,PD,3,25.70%,3,3,192,0,1.71,6.31,1,1
+INS-B-021,0,TNBC,Triple negative breast cancer,N/A,68.69,0,PD,PD,3,13.8% (Non target PD),3,3,350,0,1.61,11.5,1,1
+INS-B-022,0,TNBC,Triple negative breast cancer,N/A,61,0,PD,PD,3,12.2% (Non target PD),3,5,608,0,1.94,19.98,1,1
+INS-B-023,0,TNBC,Triple negative breast cancer,N/A,36.51,0,PD,PD,3,6.3% (Non target PD),3,3,235,0,1.94,7.72,1,1
+INS-B-024,0,TNBC,Triple negative breast cancer,N/A,56.02,0,PD,PD,3,76.50%,3,3,263,0,1.91,8.64,1,1
+INS-B-026,0,TNBC,Triple negative breast cancer,N/A,74.01,0,PD,PD,2,28.00%,2,2,274,0,0.92,9,1,1
+INS-C-010,0,HGSOC,"Ovarian, high grade serous",N/A,36.52,0,PD,PD,3,29.80%,3,3,423,0,1.81,13.9,1,1
+INS-C-013,0,HGSOC,"Ovarian, high grade serous",N/A,51.92,0,PD,PD,3,3.8% (Non target PD),3,4,836,0,1.81,27.47,1,1
+INS-C-015,0,HGSOC,"Ovarian, high grade serous",N/A,72.94,0,PD,PD,4,10.8% (Non target PD),3,4,1534,0,1.84,50.4,1,1
+INS-C-017,0,HGSOC,"Ovarian, high grade serous",N/A,49.41,0,PD,PD,3,38.70%,3,3,883,0,1.97,29.01,1,1
+INS-C-020,0,HGSOC,"Ovarian, high grade serous",N/A,53.51,0,PD,PD,2,26.20%,2,2,2183,0,1.81,71.72,1,0
+INS-C-021,0,HGSOC,"Ovarian, high grade serous",N/A,70.37,0,PD,PD,1,23.90%,1,1,123,0,0.66,4.04,1,1
+INS-C-023,0,HGSOC,"Ovarian, high grade serous",N/A,67.65,0,PD,PD,3,11.4% (non target PD),3,3,1097,0,1.84,36.04,1,1
+INS-C-024,0,HGSOC,"Ovarian, high grade serous",N/A,44.78,0,PD,PD,3,12.5% (Non target PD),3,3,133,0,1.81,4.37,1,1
+INS-D-007,1,MM,"Melanoma, NOS","BRAF negative, NRAS negative, KIT positive",57.95,0,PD,PD,3,31.00%,3,5,187,0,1.87,6.14,1,1
+INS-D-008,1,MM,"Melanoma, NOS",BRAF positive,74.09,0,PD,PD,3,37.50%,3,5,196,0,1.91,6.44,1,1
+INS-D-011,0,MM,"Melanoma, superficial spreading",BRAF negative,78.2,0,PD,PD,3,NE (Non Target PD),3,3,107,0,1.58,3.52,1,1
+INS-E-011,1,MST,"Sarcoma, clear cell",EWSR1-ATF1 fusion positive,21.13,0,PD,PD,3,71.20%,3,3,99,0,2.04,3.25,1,1
+INS-E-012,1,MST,Small cell carcinoma of anus,N/A,57.17,0,PD,PD,3,26.00%,3,5,425,0,1.91,13.96,1,1
+INS-E-016,0,MST,Large cell neuroendocrine carcinoma of cervix,N/A,38.22,0,PD,PD,3,64.70%,3,3,425,0,1.94,13.96,1,1
+INS-E-018,1,MST,Adenocarcinoma of GEJ,Her2 negative,66.28,0,PD,PD,3,27.00%,3,3,2178,0,1.87,71.56,1,0
+INS-E-019,0,MST,Clear cell carcinoma of endometriosis,MMR proficient,40.02,0,PD,PD,3,25.00%,3,5,2188,0,1.87,71.89,1,0
+INS-E-021,1,MST,Squamous cell carcinoma of penis,N/A,74.09,0,PD,PD,2,22.00%,2,2,117,0,1.97,3.84,1,1
+INS-E-023,1,MST,Squamous cell carcinoma of anus/rectum,N/A,48.3,0,PD,PD,3,44.60%,3,3,146,0,1.87,4.8,1,1
+INS-E-025,0,MST,Adenocarcinoma of colon,"MMR deficient, KRAS wild-type, BRAF unknown",71.84,0,PD,PD,3,"14.2%
+(Non target PD)",3,3,240,0,1.94,7.89,1,1
+INS-E-027,0,MST,Chondrosarcoma,N/A,47.36,0,PD,PD,3,0% (Non target PD),3,5,295,0,1.84,9.69,1,1
+INS-E-030,1,MST,Myxoid liposarcoma,N/A,59.54,0,PD,PD,3,34.20%,3,3,418,0,1.91,13.73,1,1
+INS-E-031,1,MST,Adenocarcinoma from biliary system (cholangiocarcinoma),N/A,51.49,0,PD,PD,3,9.7% (Non target PD),3,6,289,1,1.94,9.49,1,0
+INS-E-033,1,MST,Merkle cell carcinoma,N/A,66.19,0,PD,PD,2,10.1% (Non target PD),2,2,72,0,1.15,2.37,1,1
+INS-E-034,0,MST,Merkle cell carcinoma,N/A,62.32,0,PD,PD,3,150.00%,3,5,176,0,1.87,5.78,1,1
+INS-E-035,1,MST,Merkle cell carcinoma,N/A,52.16,0,PD,PD,3,33.00%,3,3,587,0,1.87,19.29,1,1
+INS-A-007,1,SCCHN,Squamous cell carcinoma of tongue base,p16 positive,70.94,1,PR,PR,3,-100.00%,FU#2,20,1449,0,20.93,47.61,1,1
+INS-A-019,1,SCCHN,Squamous cell carcinoma of supraglottis and glottis,p16 negative,68.71,1,PR,PR,3,-56.20%,NO PD,35,1143,0,37.55,37.55,0,1
+INS-B-016,0,TNBC,Triple negative breast cancer,N/A,61.25,1,PR,PR,3,-66.10%,NO PD,35,2043,0,67.12,67.12,0,0
+INS-D-001,1,MM,"Melanoma, desmoplastic",BRAF unknown,61.44,1,PR,PR,16,-42.20%,No RECIST PD,28,2332,0,23.23,76.62,1,0
+INS-D-003,1,MM,"Melanoma, NOS",BRAF negative,73.11,1,PR,PR,3,-82.80%,NO PD,35,2338,0,76.81,76.81,0,0
+INS-D-004,0,MM,"Melanoma, superficial spreading",BRAF positive,67.84,1,PR,PR,3,-100.00%,NO PD,35,2268,0,74.51,74.51,0,0
+INS-D-005,1,MM,"Melanoma, NOS","BRAF negative, NRAS negative, KIT negative",70.06,1,PR,PR,6,-100.00%,No RECIST PD,21,2240,0,73.59,73.59,0,0
+INS-D-006,0,MM,"Melanoma, NOS","BRAF negative, NRAS positive",45,1,PR,PR,6,-65.60%,24,35,2175,0,16.16,71.46,1,0
+INS-D-009,0,MM,"Melanoma, mucosal vaginal ",BRAF positive,53.75,1,PR,PR,3,-100.00%,NO PD,35,2077,0,68.24,68.24,0,0
+INS-D-012,0,MM,"Melanoma, NOS",BRAF negative,54.46,1,PR,PR,3,-86.20%,NO PD,35,1957,0,64.3,64.3,0,0
+INS-E-013,1,MST,Merkle cell carcinoma,N/A,81.76,1,PR,PR,35,-97.20%,No RECIST PD,34,2244,0,73.72,73.72,0,0
+INS-E-020,1,MST,Merkle cell carcinoma,N/A,74.7,1,PR,PR,6,-34.00%,12,21,771,0,8.05,25.33,1,1
+INS-E-022,1,MST,Merkle cell carcinoma,N/A,70.73,1,PR,PR,3,-58.90%,15,16,578,0,10.09,18.99,1,1
+INS-E-026,1,MST,Basal cell and squamous cell poorly differentiated carcinoma,N/A,49.95,1,PR,PR,3,-87.50%,No RECIST PD,16,2105,0,69.16,69.16,0,0
+INS-E-028,0,MST,Adenocarcinoma of colon,"MMR deficient, KRAS wild-type, BRAF unknown",34.14,1,PR,PR,2,-46.10%,No RECIST PD,2,2070,0,68.01,68.01,0,0
+INS-A-002,1,SCCHN,Squamous cell carcinoma of retromolar trigone,p16 unknown,62.08,0,SD,"SD, n < 6 ICB cycles",3,5.70%,NE,4,199,0,2.76,6.54,1,1
+INS-A-010,0,SCCHN,Squamous cell carcinoma of tonsil,p16 positive,65.66,0,SD,"SD, n < 6 ICB cycles",3,17.80%,6,8,553,0,4.17,18.17,1,1
+INS-A-012,0,SCCHN,Squamous cell carcinoma of soft palate,p16 unknown,69.73,0,SD,"SD, n < 6 ICB cycles",3,-3.70%,3,3,290,0,3.25,9.53,1,1
+INS-A-013,1,SCCHN,Squamous cell carcinoma of oropharynx,p16 unknown,69.23,0,SD,"SD, n < 6 ICB cycles",3,11.00%,6,6,239,0,3.91,7.85,1,1
+INS-A-015,1,SCCHN,Squamous cell carcinoma of hypopharynx/proximal esophagus,p16 negative,62.13,0,SD,"SD, n < 6 ICB cycles",3,-13.50%,No RECIST PD,4,70,0,2.3,2.3,1,1
+INS-A-018,1,SCCHN,Squamous cell carcinoma of glottis,p16 unknown,70.22,0,SD,"SD, n < 6 ICB cycles",2,13.70%,FU #1,2,129,0,3.22,4.24,1,1
+INS-A-021,1,SCCHN,Squamous cell carcinoma of tonsil,p16 positive,54.62,0,SD,"SD, n < 6 ICB cycles",3,7.30%,EOT,4,266,0,3.55,8.74,1,1
+INS-B-001,0,TNBC,Triple negative breast cancer,N/A,55.35,0,SD,"SD, n < 6 ICB cycles",3,8.20%,5,5,254,0,3.35,8.34,1,1
+INS-B-011,0,TNBC,Triple negative breast cancer,N/A,74.77,0,SD,"SD, n < 6 ICB cycles",3,19.60%,No RECIST PD,3,725,0,2.04,23.82,1,1
+INS-B-017,0,TNBC,Triple negative breast cancer,N/A,65.08,0,SD,"SD, n < 6 ICB cycles",3,-29.00%,EOT/FU #1,3,736,0,5.45,24.18,1,1
+INS-C-001,0,HGSOC,"Ovarian, high grade serous",N/A,74.03,0,SD,"SD, n < 6 ICB cycles",3,18.00%,5,5,1126,0,3.78,36.99,1,1
+INS-C-009,0,HGSOC,"Ovarian, high grade serous",N/A,66.67,0,SD,"SD, n < 6 ICB cycles",5,-12.1% (Non target PD),3,5,494,0,1.84,16.23,1,1
+INS-E-003,0,MST,"Adenocarcinoma of endocervix, mucinous type",HPV 18 subtype positive,44.02,0,SD,"SD, n < 6 ICB cycles",3,18.10%,6,6,688,0,4.44,22.6,1,1
+INS-E-024,1,MST,Adenoid cystic carcinoma,"AR, ER and PR unknown",56.39,0,SD,"SD, n < 6 ICB cycles",3,9.50%,6,6,249,0,3.94,8.18,1,1
+INS-E-029,0,MST,Endometrioid adenocarcinoma of endometrium,"ER positive, MMR deficient",76.9,0,SD,"SD, n < 6 ICB cycles",3,15.50%,6,8,1111,0,3.94,36.5,1,1
+INS-E-036,1,MST,Neuroendocrine tumor of pancreas,MMR deficient,60.62,0,SD,"SD, n < 6 ICB cycles",4,6.00%,3,6,231,0,1.87,7.59,1,1
+INS-A-011,1,SCCHN,Squamous cell carcinoma of tongue ,N/A,60.89,1,SD,"SD, 6 < n ICB cycles",3,-27.40%,No RECIST PD,12,521,0,8.71,17.12,1,1
+INS-C-004,0,HGSOC,"Ovarian, high grade serous",N/A,71.27,1,SD,"SD, 6 < n ICB cycles",3,-14.70%,9,9,242,0,5.98,7.95,1,1
+INS-C-018,0,HGSOC,"Ovarian, high grade serous",N/A,67.82,1,SD,"SD, 6 < n ICB cycles",3,-25.70%,15,15,2204,0,10.55,72.41,1,0
+INS-E-002,1,MST,"Sarcoma, hemangiopericytoma",N/A,42.94,1,SD,"SD, 6 < n ICB cycles",3,7.50%,No RECIST PD,7,151,0,4.96,4.96,1,1
+INS-E-004,0,MST,"Sarcoma, solitary fibrous tumor",N/A,64.2,1,SD,"SD, 6 < n ICB cycles",3,-0.70%,No RECIST PD,9,2333,0,76.65,76.65,0,0
+INS-E-007,0,MST,"Squamous cell carcinoma of maxillary sinus, spindle cell type",N/A,41.93,1,SD,"SD, 6 < n ICB cycles",3,0.00%,9,15,543,0,6.01,17.84,1,1
+INS-E-008,1,MST,"Nasopharyngeal carcinoma, non-keratinizing","EBV positive, p16 negative",49.08,1,SD,"SD, 6 < n ICB cycles",3,0.00%,No RECIST PD,11,434,0,7.85,14.26,1,1
+INS-E-032,0,MST,Adenoid cystic carcinoma,"AR, ER and PR unknown",43.57,1,SD,"SD, 6 < n ICB cycles",3,2.00%,20,20,1766,0,13.6,58.02,1,0
