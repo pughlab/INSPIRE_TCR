@@ -190,3 +190,163 @@ plot(
                              ymax=0.98, 
                              xmin=-0.98, 
                              xmax=0.98))
+
+
+### ---------------------------------------------------------------------------------------------------------
+### Improved Layout Design (Layout Version Designed For Thesis Defense: -------------------------------------
+
+# This layout segregates components by community composition. Components with a single community are positioned
+# in five peripheral circles, while multi-community components are centralized.
+
+# ==========================================================
+# ============== NEW: Parameters to Tune ===================
+# ==========================================================
+# 1. To expand the central components
+core_scale_factor <- 1.6 # (e.g., 1.6 = 60% larger)
+
+# 2. To compress the peripheral circles
+radius_increment_factor <- 0.09 # (Smaller number = closer circles)
+
+# 3. To create partial (e.g., 4/5) circles, leaving a gap at the bottom
+# The arc will go from start_angle to end_angle (in radians)
+# A full circle is 2*pi (~6.28). These values create a 4/5 arc with a gap at the bottom.
+arc_proportion <- 4/5
+gap_proportion <- 1 - arc_proportion
+start_angle <- (gap_proportion / 2) * 2 * pi 
+end_angle <- (1 - gap_proportion / 2) * 2 * pi
+
+# Number of circles for the periphery
+num_circles <- 5
+# ==========================================================
+
+
+# Step 1: Calculate the Initial Backbone Layout
+# =============================================
+Backbone3 <- graphlayouts::layout_as_backbone(Abstract_Network, keep = 0.75)
+
+
+# Step 2: Identify and Separate Components
+# ========================================
+comps <- components(Abstract_Network)
+membership <- comps$membership
+csize <- comps$csize
+
+isolate_ids <- which(csize[membership] == 1)
+main_component_ids <- which(csize[membership] > 1)
+coords_main <- Backbone3$xy[main_component_ids, ]
+
+
+# Step 3: Arrange Components with New Scaling and Arcs
+# ====================================================
+# --- Split the isolates into groups for each circle ---
+isolate_groups <- vector("list", num_circles)
+for (i in 1:num_circles) {
+        isolate_groups[[i]] <- isolate_ids[seq(i, length(isolate_ids), by = num_circles)]
+}
+
+# --- Recenter and SCALE the main components ---
+center_main <- apply(coords_main, 2, mean)
+coords_main_centered <- sweep(coords_main, 2, center_main, "-")
+# --- Scale the core components to make them larger
+coords_main_scaled <- coords_main_centered * core_scale_factor
+
+# --- Create an empty list for isolate coordinates ---
+isolate_coords_list <- vector("list", num_circles)
+
+# --- Determine the radii for the compressed circles ---
+# NOTE: Use the newly scaled coordinates to calculate the starting radius
+max_dist <- max(abs(coords_main_scaled))
+base_radius <- max_dist * 1.20 # Start first circle a bit closer
+radius_increment <- base_radius * radius_increment_factor # Use the new smaller factor
+
+# --- Loop to calculate coordinates for each ARC of isolates ---
+for (i in 1:num_circles) {
+        current_isolate_ids <- isolate_groups[[i]]
+        num_current_isolates <- length(current_isolate_ids)
+        
+        if (num_current_isolates > 0) {
+                current_radius <- base_radius + (i - 1) * radius_increment
+                
+                # Use the start_angle and end_angle to create an arc
+                angles <- seq(start_angle, end_angle, length.out = num_current_isolates)
+                
+                # Add a small offset to stagger points (looks better on arcs too)
+                if (num_current_isolates > 1) {
+                        angle_step <- (angles[2]-angles[1])
+                        angle_offset <- (angle_step / num_circles) * (i-1) - (angle_step/2)
+                        angles <- angles + angle_offset
+                }
+                
+                new_coords <- matrix(NA, nrow = num_current_isolates, ncol = 2)
+                new_coords[, 1] <- current_radius * cos(angles)
+                new_coords[, 2] <- current_radius * sin(angles)
+                
+                isolate_coords_list[[i]] <- new_coords
+        }
+}
+
+
+# Step 4: Combine into a Final Layout Matrix
+# ===========================================
+final_layout <- matrix(NA, nrow = vcount(Abstract_Network), ncol = 2)
+# Use the SCALED coordinates for the main components
+final_layout[main_component_ids, ] <- coords_main_scaled
+# Populate the layout for the isolates
+for (i in 1:num_circles) {
+        final_layout[isolate_groups[[i]], ] <- isolate_coords_list[[i]]
+}
+
+### ---------------------------------------------------------------------------------------------------------
+
+
+tkid <- tkplot(
+        Abstract_Network,
+        # vertex.size = ifelse(V (Abstract_Network)$Source == "HEALTHYcfDNA,INSPIRETumour" ,
+        #                      V (Abstract_Network)$Community_Size**0.85 ,
+        #                      0) ,             # Adjust the size of the super-nodes
+        vertex.size =  V (Abstract_Network)$Community_Size**0.51 ,
+        vertex.color = V (Abstract_Network)$Color ,
+        # vertex.label = ifelse(V(Abstract_Network)$Detailed_Annotation %in% c("IOKIN_intrinsic" , "HNSCC") ,
+        #                       NA ,
+        #                       V(Abstract_Network)$Detailed_Annotation ),
+        vertex.label = NA ,
+        vertex.label.color = "#000000" ,
+        # vertex.label.dist = ifelse(V(Abstract_NetworkPrime)$EdgeBetwCommunity_Size > 25  ,
+        #                            1.7 , 1
+        # ),
+        # vertex.frame.color = ifelse(V (Abstract_Network)$ResistanceStatus_Range == "Ar,Pr" ,
+        #                             "red" ,
+        #                             ifelse(V (Abstract_Network)$ResistanceStatus_Range == "Ar" ,
+        #                                    "blue" ,
+        #                                    "#000000")) ,
+        vertex.label.cex = 0.5 ,
+        vertex.label.degree = 75 ,
+        vertex.label.family = "Helvetica" ,
+        vertex.shape = "circle" ,
+        edge.width = 0.1 ,
+        edge.color = "#000000" ,
+        rescale = FALSE ,
+        ###To get all the available layouts: grep("^layout_", ls("package:igraph"), value=TRUE)[-1]
+        layout = norm_coords(#layout [, c(1,2)] ,
+                final_layout ,
+                ymin=-0.9,
+                ymax=0.9,
+                xmin=-0.9,
+                xmax=0.9))
+
+
+
+ManualLayout <- tk_coords(tkid)
+
+
+Abstract_Network <- set_vertex_attr(Abstract_Network,
+                                    name = "LayoutX",
+                                    value = CrappyManualLayout [,1])
+
+Abstract_Network <- set_vertex_attr(Abstract_Network,
+                                    name = "LayoutY",
+                                    value = CrappyManualLayout [,2])
+
+
+### Saving the final super-node network:
+saveRDS(Abstract_Network, "INSPIRE_Tumour_GLIPHIISuperNodeNetwork.rds")
