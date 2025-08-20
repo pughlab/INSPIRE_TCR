@@ -221,6 +221,26 @@ GLIPHII_Community_stats <- GLIPHII_Community_stats %>%
                   by = "Abstract_Annotation")
 
 
+### Screening the TRBVs for each community:
+
+# communities_of_interest <- (GLIPHII_Community_stats %>% filter(Abstract_Annotation == "MDavis"))$Community_id 
+communities_of_interest <- c()
+
+for (community_id in communities_of_interest) {
+        
+        # Print a header for the community to keep the output organized
+        cat(paste("\n--- Vertices in LeidenCommunity:", community_id, "---\n"))
+        
+        vertex_data <- data.frame(
+                Patient_id = V(network)$Patient_id[V(network)$LeidenCommunity == community_id],
+                Source = V(network)$Source[V(network)$LeidenCommunity == community_id],
+                TcRb   = V(network)$TcRb[V(network)$LeidenCommunity == community_id],
+                V      = V(network)$V[V(network)$LeidenCommunity == community_id]) %>%
+                arrange(V)
+
+        print(vertex_data)
+                
+}
 ### Saving the final dataframe:
 write_csv(GLIPHII_Community_stats ,
           "INSPIRE_Tumour_GLIPHIICommunitiesDetails.csv" ))
