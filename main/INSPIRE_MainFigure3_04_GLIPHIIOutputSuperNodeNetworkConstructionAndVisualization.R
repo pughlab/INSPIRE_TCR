@@ -193,16 +193,18 @@ plot(
 
 
 ### ---------------------------------------------------------------------------------------------------------
-### Improved Layout Design (Layout Version Designed For Thesis Defense: -------------------------------------
+### Improved Layout Design (Layout Version Designed For Thesis Defense): ------------------------------------
 
 # This layout segregates components by community composition. Components with a single community are positioned
 # in five peripheral circles, while multi-community components are centralized.
+# Developed with assistance from Google's Gemini.
+
 
 # ==========================================================
 # ============== NEW: Parameters to Tune ===================
 # ==========================================================
 # 1. To expand the central components
-core_scale_factor <- 1.6 # (e.g., 1.6 = 60% larger)
+core_scale_factor <- 1.6 # (60% larger)
 
 # 2. To compress the peripheral circles
 radius_increment_factor <- 0.09 # (Smaller number = closer circles)
@@ -350,3 +352,39 @@ Abstract_Network <- set_vertex_attr(Abstract_Network,
 
 ### Saving the final super-node network:
 saveRDS(Abstract_Network, "INSPIRE_Tumour_GLIPHIISuperNodeNetwork.rds")
+
+
+### ---------------------------------------------------------------------------------------------------------
+### Visualization with no annotations : ---------------------------------------------------------------------
+
+svg(filename = "INSPIRE_Tumour_SuperNodeNetwork_unfiltered_UnAnnotated.svg"),
+    family = "Helvetica" ,
+    symbolfamily = "Helvetica" ,
+    width = 6.0, height = 6.0,
+    onefile = TRUE ,
+    bg = "transparent")
+
+
+plot(
+        simplify (Abstract_Network),
+        vertex.size = V (Abstract_Network)$Community_Size**0.51 ,             
+        vertex.color = V (Abstract_Network)$Color,  
+        vertex.label = NA ,
+        #vertex.label = NA ,
+        vertex.label.color = "#000000" ,
+        vertex.label.cex = 0.4 , 
+        vertex.label.degree = 75 , 
+        vertex.label.family = "Helvetica" , 
+        vertex.frame.width = 0.1 ,
+        vertex.shape = "circle" ,
+        edge.width = 0.5 ,
+        edge.color = "#BDBDBB" ,
+        rescale = FALSE ,
+        layout = norm_coords(CrappyManualLayout    ,
+                             ymin=-0.98, 
+                             ymax=0.98, 
+                             xmin=-0.98, 
+                             xmax=0.98))
+
+
+dev.off()
