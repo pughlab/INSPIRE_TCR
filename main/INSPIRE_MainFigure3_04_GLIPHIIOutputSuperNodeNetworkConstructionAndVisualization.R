@@ -430,3 +430,89 @@ plot(
 
 
 dev.off()
+
+### ---------------------------------------------------------------------------------------------------------
+### Visualization of HLA convergent communities with no annotations : ---------------------------------------
+
+svg(filename = "INSPIRE_Tumour_SuperNodeNetwork_HLAConvergent_UnAnnotated.svg",
+    family = "Helvetica" ,
+    symbolfamily = "Helvetica" ,
+    width = 6.0, height = 6.0,
+    onefile = TRUE ,
+    bg = "transparent")
+
+
+plot(
+        simplify (Abstract_Network),
+        vertex.size = V (Abstract_Network)$Community_Size**0.51 ,             
+        vertex.color = ifelse(V (Abstract_Network)$Community_id %in% (GLIPHII_Community_stats %>% filter(grepl("HLA" , Status)))$Community_id ,
+                              V (Abstract_Network)$Color,  
+                              "transparent" ) ,
+        
+        vertex.frame.color = ifelse(V (Abstract_Network)$Community_id %in% (GLIPHII_Community_stats %>% filter(grepl("HLA" , Status)))$Community_id ,
+                                    "#000000",  
+                                    "transparent") ,
+        
+        vertex.label = NA ,
+        #vertex.label = NA ,
+        vertex.label.color = "#000000" ,
+        vertex.label.cex = 0.4 , 
+        vertex.label.degree = 75 , 
+        vertex.label.family = "Helvetica" , 
+        vertex.frame.width = 0.1 ,
+        vertex.shape = "circle" ,
+        edge.width = 0.5 ,
+        edge.color = "#BDBDBB" ,
+        rescale = FALSE ,
+        layout = norm_coords(as.matrix(data.frame(V(Abstract_Network)$LayoutX , V(Abstract_Network)$LayoutY))    ,
+                             ymin=-0.98, 
+                             ymax=0.98, 
+                             xmin=-0.98, 
+                             xmax=0.98))
+
+
+dev.off()
+
+### ---------------------------------------------------------------------------------------------------------
+### Visualization of HLA and TRBV convergent communities with no annotations : ------------------------------
+
+svg(filename = "INSPIRE_Tumour_SuperNodeNetwork_HLAandTRBVConvergent_UnAnnotated.svg",
+    family = "Helvetica" ,
+    symbolfamily = "Helvetica" ,
+    width = 6.0, height = 6.0,
+    onefile = TRUE ,
+    bg = "transparent")
+
+
+plot(
+        simplify (Abstract_Network),
+        vertex.size = V (Abstract_Network)$Community_Size**0.51 ,             
+        vertex.color = ifelse(V (Abstract_Network)$Community_id %in% (GLIPHII_Community_stats %>% 
+                                                                              filter(grepl("HLA" , Status)) %>%
+                                                                              filter(TRBVConvergence != "Divergent"))$Community_id ,
+                              V (Abstract_Network)$Color,  
+                              "transparent" ) ,
+        
+        vertex.frame.color = ifelse(V (Abstract_Network)$Community_id %in% (GLIPHII_Community_stats %>% filter(grepl("HLA" , Status)) %>%
+                                                                                    filter(TRBVConvergence != "Divergent"))$Community_id ,
+                                    "#000000",  
+                                    "transparent") ,
+        
+        vertex.label = NA ,
+        #vertex.label = NA ,
+        vertex.label.color = "#000000" ,
+        vertex.label.cex = 0.4 , 
+        vertex.label.degree = 75 , 
+        vertex.label.family = "Helvetica" , 
+        vertex.frame.width = 0.1 ,
+        vertex.shape = "circle" ,
+        edge.width = 0.5 ,
+        edge.color = "#BDBDBB" ,
+        rescale = FALSE ,
+        layout = norm_coords(as.matrix(data.frame(V(Abstract_Network)$LayoutX , V(Abstract_Network)$LayoutY))    ,
+                             ymin=-0.98, 
+                             ymax=0.98, 
+                             xmin=-0.98, 
+                             xmax=0.98))
+
+dev.off()
